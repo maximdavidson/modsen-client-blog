@@ -1,0 +1,126 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 31px 10px 56px;
+  background: rgba(35, 37, 54, 1);
+
+  @include respond-to(tablet) {
+    padding: 10px 20px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+
+  @include respond-to(tablet) {
+    font-size: 18px;
+  }
+}
+
+.navigate_wrap {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+  @include respond-to(tablet) {
+    gap: 16px;
+  }
+
+  .video_btn {
+    cursor: pointer;
+    padding: 16px 48px 16px 48px;
+    font-size: 16px;
+    font-weight: 700;
+
+    @include respond-to(tablet) {
+      font-size: 14px;
+      padding: 10px 30px;
+    }
+  }
+  .video_btn:active {
+    position: relative;
+    top: 3px;
+  }
+}
+
+.navigation {
+  display: flex;
+  gap: 24px;
+}
+
+.navigation {
+  display: flex;
+  gap: 24px;
+
+  @include respond-to(tablet) {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(35, 37, 54, 1);
+    gap: 16px;
+    padding: 20px;
+    z-index: 10;
+
+    &.open {
+      display: flex;
+    }
+
+    a {
+      padding: 10px;
+      text-align: center;
+
+      &:hover {
+        opacity: 70%;
+      }
+    }
+  }
+  @include respond-to(mobile) {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 91%;
+    background-color: rgba(35, 37, 54, 1);
+    gap: 16px;
+    padding: 20px;
+    z-index: 10;
+
+    &.open {
+      display: flex;
+    }
+
+    a {
+      padding: 10px;
+      text-align: center;
+
+      &:hover {
+        opacity: 70%;
+      }
+    }
+  }
+}
+
+.burger_menu {
+  display: none;
+
+  @include respond-to(tablet) {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}

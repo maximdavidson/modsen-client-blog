@@ -1,0 +1,1 @@
+export const NUMBER_OF_BLOG_POSTS_TO_DISPLAY = 3;

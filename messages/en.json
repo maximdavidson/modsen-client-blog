@@ -1,0 +1,177 @@
+{
+  "Logo": {
+    "title": "Modsen Client Blog"
+  },
+  "Navbar": {
+    "home": "Home",
+    "blog": "Blog",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "privacy_policy": "Privacy Policy"
+  },
+  "ModalVideo": {
+    "btn_title": "Video about us"
+  },
+  "SubscribeForm": {
+    "title": "Subscribe to our news letter to get latest updates and news",
+    "placeholder": "Enter Your Email"
+  },
+  "Post": {
+    "postedOn": "Posted on ",
+    "by": "By",
+    "btn_title": "Read More "
+  },
+  "HomePostsSection": {
+    "featuredPost": "Featured Post",
+    "allPosts": "All Posts",
+    "viewAll": "View All"
+  },
+  "HomeInfoSection": {
+    "about_subtitle": "About us",
+    "about_title": "We are a community of content writers who share their learnings",
+    "about_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "link_title": "Read More",
+    "mission_subtitle": "Our mission",
+    "mission_title": "Creating valuable content for creatives all around the world",
+    "mission_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "WhyStartedSection": {
+    "subtitle": "Why we started ",
+    "title": "It started out as a simple idea and evolved into our passion",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    "btn_title": "Discover our story"
+  },
+  "FeaturedSection": {
+    "title": "Featured in",
+    "subtitle": "We are"
+  },
+  "TestimonialsSection": {
+    "subtitle": "Testimonials",
+    "title": "What people say about our blog",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+  },
+  "CategoriesSection": {
+    "chooseACategory": "Choose A Catagory",
+    "allCategories": "All Categories"
+  },
+  "AuthorsSection": {
+    "title": "List of Authors"
+  },
+  "JoinSection": {
+    "title": "Join our team to be a part of our story",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "btn_title": "Join Now"
+  },
+  "BlogPosts": {
+    "title": "All posts",
+    "subtitle_header": "Featured Post",
+    "Pagination": {
+      "btn_title_prev": "Prev",
+      "btn_title_next": "Next"
+    }
+  },
+  "BlogPost": {
+    "whatToReadNext": "What to read next",
+    "postedOn": "Posted on"
+  },
+  "AuthorPage": {
+    "hello": "Hey there, I’m",
+    "welcome": "and welcome to my Blog",
+    "title": "My Posts",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus",
+    "small_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "no_result": "No posts available."
+  },
+  "ContactsUs": {
+    "Heading": {
+      "subtitle": "Contact us",
+      "title": "Let’s Start a Conversation",
+      "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
+    },
+    "ContactData": {
+      "workingHours": "Working hours",
+      "contactUs": "Contact Us",
+      "mondayToFriday": "Monday To Friday",
+      "workTime": "9:00 AM to 8:00 PM",
+      "supportAvailable": "Our Support Team is available 24/7"
+    },
+    "Form": {
+      "Placeholders": {
+        "name": "Full Name",
+        "email": "Your Email",
+        "queryRelated": "Query Related",
+        "message": "Message"
+      },
+      "Validation": {
+        "required": "{field} is required",
+        "email": "Invalid {field} address",
+        "oneOf": "Invalid selection for {field}"
+      },
+      "Fields": {
+        "name": "Name",
+        "email": "Email",
+        "queryRelated": "Query Related",
+        "message": "Message"
+      },
+      "btn_title": "Send Message",
+      "error": "An error has occurred. Try again later!",
+      "success": "Your message has been accepted for processing!"
+    }
+  },
+
+  "AboutUs": {
+    "Heading": {
+      "subtitle": "ABOUT US",
+      "title": "We are a team of content writers who share their learnings",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    "Overview": {
+      "blogsPublished": "Blogs Published",
+      "views": "Views on Finsweet",
+      "totalUsers": "Total active Users"
+    },
+    "Community": {
+      "subtitle_mission": "Our mission",
+      "title_mission": "Creating valuable content for creatives all around the world",
+      "description_mission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.",
+      "subtitle_vision": "Our mision",
+      "title_vision": "A platform that empowers individuals to improve",
+      "description_vision": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus."
+    },
+    "Details": {
+      "title_1": "Our team of creatives",
+      "subtitle_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+      "title_2": "Why we started this Blog",
+      "subtitle_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "description_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+    }
+  },
+  "Category": {
+    "categoriesTitle": "Categories",
+    "tagsTitle": "All Tags",
+    "no_post_found": " No posts found for the selected tag. Try Another!",
+    "Input": {
+      "placeholder": "Search for tag...",
+      "btn_title": "Search"
+    }
+  },
+  "PrivacyPolicy": {
+    "Heading": {
+      "title": "Privacy Policy",
+      "subtitle": "Last Updated  on 25th August 2024"
+    },
+    "Content": {
+      "title_1": "Lorem ipsum dolor sit amet",
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+      "title_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "description_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+    }
+  },
+  "Categories": {
+    "business": "Business",
+    "startup": "Startup",
+    "economy": "Economy",
+    "technology": "Technology"
+  }
+}

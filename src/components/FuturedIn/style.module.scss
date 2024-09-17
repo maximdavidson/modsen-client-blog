@@ -1,0 +1,50 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 128px;
+
+  @include respond-to(mobile) {
+    margin-left: 50px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+
+    @include respond-to(tablet) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      grid-gap: 24px;
+    }
+
+    @include respond-to(mobile) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+
+    .text_wrap {
+      margin-right: 42px;
+
+      .sub_text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgba(109, 110, 118, 1);
+        margin-bottom: 0;
+      }
+
+      .text {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(109, 110, 118, 1);
+        margin-top: 0;
+      }
+    }
+  }
+}

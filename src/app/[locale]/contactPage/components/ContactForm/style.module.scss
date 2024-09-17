@@ -1,0 +1,169 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 128px;
+
+  @include respond-to(mobile) {
+    margin-top: 70px;
+  }
+
+  .sub_title {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+
+    @include respond-to(tablet) {
+      font-size: 40px;
+    }
+
+    @include respond-to(mobile) {
+      font-size: 36px;
+    }
+  }
+
+  .text {
+    max-width: 768px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(109, 110, 118, 0.661);
+    margin-bottom: 64px;
+
+    @include respond-to(tablet) {
+      max-width: 728px;
+    }
+
+    @include respond-to(mobile) {
+      font-size: 14px;
+    }
+  }
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 71px;
+  margin-bottom: 32px;
+  background: rgba(89, 46, 169, 1);
+  padding: 48px 74px 54px 64px;
+
+  @include respond-to(tablet) {
+    width: 580px;
+  }
+
+  @include respond-to(mobile) {
+    width: 230px;
+    grid-gap: 41px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_column,
+  .right_column {
+    text-align-last: left;
+
+    .ltitle {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: rgba(214, 214, 214, 0.637);
+    }
+
+    .date_text {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 1);
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .sup_text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(214, 214, 214, 0.637);
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .line {
+      background-color: rgba(214, 214, 214, 0.637);
+      width: 294px;
+      height: 1px;
+      margin-bottom: 16px;
+
+      @include respond-to(mobile) {
+        width: 220px;
+      }
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 768px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+
+  input,
+  textarea,
+  select,
+  button {
+    width: 768px;
+    height: 76px;
+    padding-left: 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: rgba(35, 37, 54, 1);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+
+    @include respond-to(tablet) {
+      width: 599px;
+    }
+
+    @include respond-to(mobile) {
+      width: 399px;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    height: 150px;
+    color: rgba(35, 37, 54, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  button {
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "Logo": {
+    "title": "Клиентский блог Модсен"
+  },
+  "Navbar": {
+    "home": "Главная",
+    "blog": "Блог",
+    "about_us": "О нас",
+    "contact_us": "Свяжитесь с нами",
+    "privacy_policy": "Политика конфиденциальности"
+  },
+  "ModalVideo": {
+    "btn_title": "Видео о нас",
+    "title": "Посмотрите видео о нас. Приятного просмотра!"
+  },
+  "SubscribeForm": {
+    "title": "Подпишитесь на нашу рассылку, чтобы получать последние обновления и новости",
+    "placeholder": "Введите ваш email",
+    "btn_title": "Подписаться",
+    "error": "Произошла ошибка. Попробуйте позже!",
+    "success": "Подписка успешно оформлена. Проверьте вашу почту!"
+  },
+  "Post": {
+    "postedOn": "Опубликовано в ",
+    "by": "Автор:",
+    "btn_title": "Подробнее "
+  },
+  "HomePostsSection": {
+    "featuredPost": "Избранный пост",
+    "allPosts": "Все посты",
+    "viewAll": "Просмотреть все"
+  },
+  "HomeInfoSection": {
+    "about_subtitle": "О нас",
+    "about_title": "Мы сообщество авторов контента, делящихся своими знаниями",
+    "about_description": "Мы объединяем талантливых авторов, чтобы создавать уникальный и полезный контент для наших читателей.",
+    "link_title": "Читать далее",
+    "mission_subtitle": "Наша миссия",
+    "mission_title": "Создание ценного контента для творческих людей по всему миру",
+    "mission_description": "Наша цель — вдохновлять и поддерживать творческих людей, предоставляя им качественные материалы и ресурсы для развития их навыков."
+  },
+  "WhyStartedSection": {
+    "subtitle": "Почему мы начали",
+    "title": "Это началось как простая идея и превратилось в нашу страсть",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    "btn_title": "Узнайте нашу историю"
+  },
+  "FeaturedSection": {
+    "title": "Представлены в",
+    "subtitle": "Мы"
+  },
+  "TestimonialsSection": {
+    "subtitle": "Отзывы",
+    "title": "Что люди говорят о нашем блоге",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+  },
+  "CategoriesSection": {
+    "chooseACategory": "Выберите категорию"
+  },
+  "AuthorsSection": {
+    "title": "Список авторов"
+  },
+  "JoinSection": {
+    "title": "Присоединяйтесь к нашей команде, чтобы стать частью нашей истории",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "btn_title": "Присоединяйтесь"
+  },
+  "BlogPosts": {
+    "title": "Все посты",
+    "subtitle_header": "Избранный пост",
+    "Pagination": {
+      "btn_title_prev": "Назад",
+      "btn_title_next": "Вперёд"
+    }
+  },
+  "BlogPost": {
+    "whatToReadNext": "Что читать дальше",
+    "postedOn": "Опубликовано"
+  },
+  "AuthorPage": {
+    "hello": "Привет, я",
+    "welcome": "и добро пожаловать в мой блог",
+    "title": "Мои публикации",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus",
+    "small_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "no_result": "Постов ещё нет."
+  },
+  "ContactsUs": {
+    "Heading": {
+      "subtitle": "Свяжитесь с нами",
+      "title": "Давайте начнем разговор",
+      "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
+    },
+    "ContactData": {
+      "workingHours": "Часы работы",
+      "contactUs": "Свяжитесь с нами",
+      "mondayToFriday": "С понедельника по пятницу",
+      "workTime": "с 9:00 до 20:00",
+      "supportAvailable": "Наша служба поддержки доступна круглосуточно"
+    },
+    "Form": {
+      "Placeholders": {
+        "name": "Полное имя",
+        "email": "Ваш email",
+        "queryRelated": "Темы запроса",
+        "message": "Сообщение"
+      },
+      "Validation": {
+        "required": "Поле {field} обязательно для заполнения",
+        "email": "Неверный формат адреса {field}",
+        "oneOf": "Некорректный выбор для {field}"
+      },
+      "Fields": {
+        "name": "Имя",
+        "email": "Email",
+        "queryRelated": "Темы запроса",
+        "message": "Сообщение"
+      },
+      "btn_title": "Отправить сообщение",
+      "error": "Произошла ошибка. Попробуйте позже!",
+      "success": "Ваше сообщение принято в обработку!"
+    }
+  },
+  "AboutUs": {
+    "Heading": {
+      "subtitle": "О НАС",
+      "title": "Мы - команда авторов контента, которые делятся своими знаниями",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    "Overview": {
+      "blogsPublished": "Опубликованные блоги",
+      "views": "Просмотры на Finsweet",
+      "totalUsers": "Активные пользователи"
+    },
+    "Community": {
+      "subtitle_mission": "Наша миссия",
+      "title_mission": "Создание ценных материалов для творческих людей по всему миру",
+      "description_mission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.",
+      "subtitle_vision": "Наше видение",
+      "title_vision": "Платформа, которая помогает людям становиться лучше",
+      "description_vision": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus."
+    },
+    "Details": {
+      "title_1": "Наша команда креативщиков",
+      "subtitle_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+      "title_2": "Почему мы начали этот блог",
+      "subtitle_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "description_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+    }
+  },
+  "Category": {
+    "categoriesTitle": "Категории",
+    "tagsTitle": "Все теги",
+    "no_post_found": "Постов с такими тегами не найдено. Попробуй заново!",
+    "Input": {
+      "placeholder": "Найти по тегу...",
+      "btn_title": "Поиск"
+    }
+  },
+  "PrivacyPolicy": {
+    "Heading": {
+      "title": "Политика конфиденциальности",
+      "subtitle": "Последнее обновление 25 августа 2024 года"
+    },
+    "Content": {
+      "title_1": "Lorem ipsum dolor sit amet",
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+      "title_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "description_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+    }
+  },
+  "Categories": {
+    "business": "Бизнес",
+    "startup": "Стартап",
+    "economy": "Экономика",
+    "technology": "Технологии"
+  }
+}

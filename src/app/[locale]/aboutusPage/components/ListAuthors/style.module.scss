@@ -1,0 +1,28 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin: 0px 80px 128px 80px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+
+  @include respond-to(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to(mobile) {
+    grid-template-columns: 1fr;
+  }
+}

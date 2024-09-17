@@ -1,0 +1,73 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  position: relative;
+  padding-left: 208px;
+  display: flex;
+  padding-top: 128px;
+  padding-bottom: 108px;
+  background: rgba(244, 240, 248, 1);
+  gap: 32px;
+  align-items: flex-start;
+
+  @include respond-to(tablet) {
+    padding-left: 38px;
+    padding-right: 20px;
+  }
+
+  @include respond-to(mobile) {
+    flex-direction: column;
+  }
+
+  .image_wrap {
+    .image {
+      object-fit: cover;
+    }
+  }
+
+  .text_wrap {
+    .title {
+      margin-top: 0;
+      max-width: 669px;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+    }
+
+    .text {
+      max-width: 645px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(109, 110, 118, 0.661);
+      margin-top: 0px;
+      margin-bottom: 24px;
+    }
+
+    .social {
+      cursor: pointer;
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+  .stripe {
+    position: absolute;
+    bottom: 0;
+    left: 208px;
+    width: 1024px;
+    height: 23px;
+    background: linear-gradient(to right, #ffd700 70%, #6a0dad 70%);
+
+    @include respond-to(tablet) {
+      left: 178px;
+      width: 524px;
+    }
+
+    @include respond-to(mobile) {
+      left: 0px;
+      width: 324px;
+    }
+  }
+}

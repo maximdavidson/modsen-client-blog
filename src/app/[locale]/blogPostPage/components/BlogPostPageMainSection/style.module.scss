@@ -1,0 +1,133 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-top: 128px;
+
+  @include respond-to(tablet) {
+    margin-top: 88px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+}
+
+.person_card_wrap {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.person_card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.avatar {
+  margin-right: 11px;
+}
+
+.avatar_image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_name {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: rgba(89, 46, 169, 1);
+  margin: 0;
+}
+
+.user_date {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(142, 142, 142, 0.69);
+  margin: 0;
+}
+
+.title {
+  max-width: 768px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+.startup_wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.startup_icon {
+  margin-right: 10px;
+}
+
+.startup_text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.main_image {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-self: center;
+  margin: 0 auto;
+
+  @include respond-to(tablet) {
+    width: 700px;
+  }
+  @include respond-to(mobile) {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+.text_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 843px;
+}
+
+.first_paragraph,
+.second_paragraph {
+  width: 100%;
+  text-align: left;
+}
+
+.text_title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(109, 110, 118, 1);
+  margin-top: 0;
+}
+
+.list {
+  margin-left: -20px;
+}
+
+.list_item {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgba(22, 23, 34, 0.88);
+}

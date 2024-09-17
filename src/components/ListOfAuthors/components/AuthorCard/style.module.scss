@@ -1,0 +1,47 @@
+.card {
+  cursor: pointer;
+  background: rgba(244, 244, 244, 1);
+  width: 296px;
+  height: 324px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .avatar {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: rgba(35, 37, 54, 1);
+  }
+
+  .text {
+    max-width: 232px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(109, 110, 118, 0.661);
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .image_row {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+  }
+}
+
+.card:hover {
+  background: rgba(251, 246, 234, 1);
+}

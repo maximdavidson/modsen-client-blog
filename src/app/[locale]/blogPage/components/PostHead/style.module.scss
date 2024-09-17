@@ -1,0 +1,72 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  position: relative;
+  padding-left: 80px;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 108px;
+  background: rgba(244, 240, 248, 1);
+  gap: 141px;
+  align-items: flex-start;
+
+  @include respond-to(tablet) {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @include respond-to(mobile) {
+    padding-left: 20px;
+  }
+
+  .text_wrap {
+    .sub_title {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .title {
+      margin-top: 0;
+      max-width: 600px;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+
+    .name_date {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+
+      .name {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: rgba(89, 46, 169, 1);
+      }
+    }
+
+    .text {
+      max-width: 624px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(109, 110, 118, 0.661);
+      margin-top: 0px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .image_wrap {
+    .image {
+      object-fit: cover;
+
+      @include respond-to(mobile) {
+        width: 400px;
+      }
+    }
+  }
+}

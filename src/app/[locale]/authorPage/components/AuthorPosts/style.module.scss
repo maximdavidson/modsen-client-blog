@@ -1,0 +1,106 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-left: 208px;
+  margin-top: 128px;
+  margin-bottom: 108px;
+
+  @include respond-to(tablet) {
+    margin-left: 38px;
+    margin-right: 10px;
+  }
+
+  @include respond-to(mobile) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 64px;
+  }
+
+  .post_card {
+    max-width: 1100px;
+    cursor: pointer;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+
+    @include respond-to(tablet) {
+      padding-left: 5px;
+    }
+
+    @include respond-to(mobile) {
+      flex-direction: column;
+    }
+
+    &:hover {
+      background: rgba(251, 246, 234, 1);
+    }
+
+    .image_wrap {
+      @include respond-to(mobile) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image_post {
+        @include respond-to(tablet) {
+          width: 300px;
+          height: 250px;
+        }
+      }
+    }
+
+    .text_wrap {
+      .sub_title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        color: rgba(89, 46, 169, 1);
+      }
+
+      .card_title {
+        color: rgba(35, 37, 54, 1);
+        max-width: 560px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2px;
+
+        @include respond-to(mobile) {
+          max-width: 300px;
+          font-size: 30px;
+        }
+      }
+
+      .text {
+        max-width: 580px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: rgba(109, 110, 118, 0.661);
+        margin-top: 0px;
+        margin-bottom: 24px;
+
+        @include respond-to(mobile) {
+          max-width: 300px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.no_result {
+  font-size: 24px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  text-align: center;
+}

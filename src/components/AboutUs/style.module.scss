@@ -1,0 +1,108 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 128px;
+  position: relative;
+
+  @include respond-to(mobile) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .stripe {
+    position: absolute;
+    top: -23px;
+    left: 21.9%;
+    width: 1061px;
+    height: 23px;
+    background: linear-gradient(to right, #ffd700 70%, #6a0dad 70%);
+
+    @include respond-to(tablet) {
+      width: 561px;
+      left: 29px;
+    }
+
+    @include respond-to(mobile) {
+      display: none;
+    }
+  }
+
+  .wrapper {
+    background: rgba(244, 240, 248, 1);
+
+    .small_wrap {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 61px;
+      padding-left: 80px;
+      padding-top: 56px;
+      padding-bottom: 56px;
+
+      @include respond-to(tablet) {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+      }
+
+      @include respond-to(mobile) {
+        padding-left: 20px;
+      }
+
+      .about_wrap,
+      .mission_wrap {
+        .sub_title {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 20px;
+          letter-spacing: 3px;
+
+          @include respond-to(tablet) {
+            font-size: 14px;
+          }
+        }
+
+        .about_title,
+        .mission_title {
+          max-width: 429px;
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 48px;
+          letter-spacing: -2px;
+
+          @include respond-to(tablet) {
+            font-size: 30px;
+          }
+
+          &.mission_title {
+            max-width: 481px;
+            font-size: 28px;
+            line-height: 40px;
+
+            @include respond-to(tablet) {
+              font-size: 24px;
+            }
+          }
+        }
+
+        .text {
+          max-width: 515px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+          color: rgba(109, 110, 118, 0.661);
+
+          @include respond-to(tablet) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .btn {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

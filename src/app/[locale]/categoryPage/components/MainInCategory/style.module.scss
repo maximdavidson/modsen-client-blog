@@ -1,0 +1,131 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-left: 80px;
+  margin-top: 128px;
+  margin-bottom: 64px;
+
+  @include respond-to(tablet) {
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 64px;
+  }
+
+  .post_card {
+    width: 800px;
+    cursor: pointer;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+
+    @include respond-to(tablet) {
+      width: 620px;
+    }
+
+    @include respond-to(mobile) {
+      flex-direction: column;
+      width: 320px;
+    }
+
+    &:hover {
+      background: rgba(251, 246, 234, 1);
+    }
+
+    .image_wrap {
+      .image {
+        object-fit: cover;
+
+        @include respond-to(tablet) {
+          width: 200px;
+          height: 270px;
+        }
+
+        @include respond-to(mobile) {
+          padding-left: 50px;
+        }
+      }
+    }
+
+    .text_wrap {
+      .sub_title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        color: rgba(89, 46, 169, 1);
+      }
+
+      .card_title {
+        max-width: 512px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2px;
+        color: rgba(35, 37, 54, 1);
+
+        @include respond-to(tablet) {
+          max-width: 412px;
+          font-size: 30px;
+        }
+      }
+
+      .text {
+        max-width: 512px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: rgba(109, 110, 118, 0.661);
+        margin-top: 0px;
+        margin-bottom: 24px;
+
+        @include respond-to(tablet) {
+          max-width: 412px;
+        }
+      }
+    }
+  }
+
+  .switch {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+
+    .switch_item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      color: rgba(109, 110, 118, 1);
+      align-items: center;
+      transition: transform 0.3s ease-in-out;
+      transform-origin: center;
+
+      &:hover {
+        transform: scale(1.1);
+        color: rgba(35, 37, 54, 1);
+      }
+
+      .arrow {
+        width: 15px;
+      }
+    }
+  }
+
+  .no_posts_message {
+    width: 800px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: rgba(35, 37, 54, 1);
+  }
+}

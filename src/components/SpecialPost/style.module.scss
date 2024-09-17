@@ -1,0 +1,90 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 228px;
+
+  @include respond-to(tablet) {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+}
+
+.image_wrap {
+  position: absolute;
+
+  @include respond-to(tablet) {
+    position: static;
+    width: 100%;
+  }
+}
+
+.image {
+  height: auto;
+
+  @include respond-to(tablet) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.content {
+  position: relative;
+  top: 123px;
+  left: 574px;
+  width: 706px;
+  background: rgba(255, 255, 255, 1);
+  padding: 80px;
+  padding-right: 0;
+
+  @include respond-to(tablet) {
+    top: 40px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+}
+.sub_title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 24px;
+
+  @include respond-to(tablet) {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}
+
+.title {
+  max-width: 546px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+
+  @include respond-to(tablet) {
+    font-size: 28px;
+    line-height: 36px;
+    max-width: 100%;
+  }
+}
+
+.text {
+  max-width: 546px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(109, 110, 118, 0.661);
+  margin-bottom: 32px;
+
+  @include respond-to(tablet) {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+}

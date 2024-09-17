@@ -1,0 +1,40 @@
+@import '@/styles/mixins.scss';
+
+.card {
+  cursor: pointer;
+  border: 1px solid rgba(109, 110, 118, 0.17);
+
+  .ico {
+    background: rgba(251, 246, 234, 1);
+    border-radius: 8px;
+    margin-left: 32px;
+    margin-top: 32px;
+  }
+
+  .card_title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    padding-left: 32px;
+    margin-top: 32px;
+  }
+
+  .text {
+    max-width: 232px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(109, 110, 118, 0.661);
+    padding-left: 32px;
+    margin-top: 32px;
+  }
+
+  &:hover {
+    background: rgba(255, 208, 80, 1);
+  }
+
+  @include respond-to(mobile) {
+    width: 300px;
+  }
+}

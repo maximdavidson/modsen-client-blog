@@ -1,0 +1,146 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  margin-top: 128px;
+  margin-left: 80px;
+  margin-bottom: 128px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+
+  @include respond-to(tablet) {
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include respond-to(mobile) {
+    margin-right: 10px;
+  }
+
+  .backgroundImage {
+    width: 100%;
+    height: auto;
+
+    @include respond-to(tablet) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .title {
+    max-width: 669px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+
+    @include respond-to(tablet) {
+      font-size: 24px;
+    }
+  }
+
+  .post_wrap {
+    border: 1px solid rgba(109, 110, 118, 0.147);
+    background: rgba(237, 236, 236, 0.309);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 48px;
+    padding-top: 32px;
+
+    @include respond-to(tablet) {
+      padding: 16px;
+    }
+
+    @include respond-to(mobile) {
+      padding-right: 12px;
+    }
+
+    .sub_text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+
+      @include respond-to(tablet) {
+        font-size: 14px;
+      }
+
+      &.sub_text_span {
+        color: rgba(255, 208, 80, 1);
+      }
+    }
+
+    .text {
+      max-width: 551px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(109, 110, 118, 0.661);
+
+      @include respond-to(tablet) {
+        font-size: 14px;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .title_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include respond-to(tablet) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .link {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(89, 46, 169, 1);
+      padding-right: 80px;
+
+      @include respond-to(tablet) {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .post_item {
+    cursor: pointer;
+    max-width: 369px;
+    padding: 12px 100px 20px 32px;
+
+    &:hover {
+      background: rgba(251, 246, 234, 1);
+    }
+
+    @include respond-to(tablet) {
+      max-width: 100%;
+      padding: 12px 20px;
+    }
+
+    .item_text {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+
+      @include respond-to(tablet) {
+        font-size: 12px;
+      }
+    }
+
+    .item_title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+
+      @include respond-to(tablet) {
+        font-size: 20px;
+      }
+    }
+  }
+}

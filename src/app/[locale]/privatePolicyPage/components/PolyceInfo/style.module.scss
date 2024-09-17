@@ -1,0 +1,79 @@
+@import '@/styles/mixins.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align-last: left;
+  margin: 0 auto;
+
+  .title_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgba(244, 240, 248, 1);
+    padding: 80px 0;
+
+    @include respond-to(mobile) {
+      padding: 60px 0;
+    }
+
+    .titlef {
+      color: rgba(35, 37, 54, 1);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      max-width: 814px;
+      margin: 0;
+
+      @include respond-to(mobile) {
+        font-size: 40px;
+      }
+    }
+
+    .textf {
+      padding: 0;
+      max-width: 768px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(109, 110, 118, 0.797);
+
+      @include respond-to(mobile) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .main_wrap {
+    margin: 128px 0;
+
+    @include respond-to(mobile) {
+      margin: 80px 0;
+    }
+
+    .title {
+      color: rgba(35, 37, 54, 1);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+      max-width: 814px;
+
+      @include respond-to(mobile) {
+        font-size: 38px;
+      }
+    }
+
+    .text {
+      max-width: 768px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(109, 110, 118, 0.797);
+      margin-bottom: 64px;
+    }
+  }
+}
